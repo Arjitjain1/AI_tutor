@@ -11,7 +11,7 @@ from langchain import HuggingFaceHub
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
 
 # Load the text document
-document_path = r'C:\Users\souvi\OneDrive\Desktop\ai p\data1.txt'
+document_path = 'data1.txt'
 loader = TextLoader(document_path)
 document = loader.load()
 
