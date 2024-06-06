@@ -7,9 +7,6 @@ from langchain.vectorstores import FAISS
 from langchain.chains.question_answering import load_qa_chain
 from langchain import HuggingFaceHub
 
-# Set the Hugging Face API token
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
-
 # Load the text document
 document_path = 'data1.txt'
 loader = TextLoader(document_path)
